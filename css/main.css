@@ -241,6 +241,8 @@ html, body {
     display: flex;
     column-gap: 10px;
     align-items: center;
+
+    transition: opacity 0.2s ease-in;
 }
 
 .btn-outline:hover {
