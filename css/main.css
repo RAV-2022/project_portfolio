@@ -93,6 +93,8 @@ html, body {
 .nav-list {
 
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
     align-items: center;
     column-gap: 40px;
     font-size: 16px;
@@ -404,4 +406,17 @@ html, body {
 
 .copyright p + p {
     margin-top: 0.5em;
+}
+
+@media (max-width: 620px) {
+    .header {
+        min-height: unset;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__title strong {
+        font-size: 40px;
+    }
 }
