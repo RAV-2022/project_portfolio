@@ -297,6 +297,7 @@ html, body {
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
+    justify-content: center;
 
 }
 
@@ -418,5 +419,52 @@ html, body {
 
     .header__title strong {
         font-size: 40px;
+    }
+
+    .section {
+        padding: 40px;
+    }
+
+    .title-1 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .project__title {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 40px 0 30px;
+    }
+
+    .footer__wrapper {
+        row-gap: 20px;
+    }
+
+    .social {
+        column-gap: 20px;
+    }
+
+    .social__item {
+        width: 28px;
+    }
+
+    .content-list {
+        row-gap: 20px;
+    }
+
+    .content-list__item {
+        font-size: 16px;
+    }
+
+    .project-details__desc {
+        font-size: 22px;
+        margin-bottom: 20px;
     }
 }
