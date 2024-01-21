@@ -29,6 +29,13 @@ font-family: 'Poppins', sans-serif;
     --header-text: var(--white);
     --accent: var(--purple);
 
+    /* Light mode */
+    
+
+}
+
+.dark {
+
 }
 
 html, body {
